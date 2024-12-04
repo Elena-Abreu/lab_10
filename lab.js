@@ -29,4 +29,13 @@ function combineText(){
     document.getElementById('combinedText').innerText = str1 + str2;
 }
 
-document.getElementById('btn3').addEventListener('click', combineText)
+document.getElementById('btn3').addEventListener('click', combineText) 
+
+
+
+
+function changeColor(){
+    document.getElementById('colorBox').style.backgroundColor = "Blue";
+}
+
+document.getElementById('btn5').addEventListener('click', changeColor)
