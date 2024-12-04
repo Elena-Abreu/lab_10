@@ -21,4 +21,12 @@ function updateHeading(){
     let userValue = document.getElementById('userInput').value;
     document.getElementById('title').innerText = userValue;
 }
-document.getElementById('btn2').addEventListener('click', updateHeading)
+document.getElementById('btn2').addEventListener('click', updateHeading) 
+
+function combineText(){
+    let str1 = document.getElementById('inputValue1').value;
+    let str2 = document.getElementById('inputValue2').value;
+    document.getElementById('combinedText').innerText = str1 + str2;
+}
+
+document.getElementById('btn3').addEventListener('click', combineText)
