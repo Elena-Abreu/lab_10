@@ -15,3 +15,10 @@ function addNumbers(){
     document.getElementById('result').innerText = (a+b);
 }
 document.getElementById('btn1').addEventListener('click', addNumbers)
+ 
+
+function updateHeading(){
+    let userValue = document.getElementById('userInput').value;
+    document.getElementById('title').innerText = userValue;
+}
+document.getElementById('btn2').addEventListener('click', updateHeading)
