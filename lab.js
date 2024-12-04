@@ -9,12 +9,11 @@ function UpdateChanges(){
     document.getElementById('message').innerText = "Hello, World!"
 }
 
-function addNumbers(){
-    let a = document.getElementById('firstValue').value;
-    let b = document.getElementById('lastValue').value;
-    document.getElementById('result').innerText = (a+b);
+function AddNumber(){
+    let a = parseFloat(document.getElementById('firstValue').value);
+    let b = parseFloat(document.getElementById('secondValue').value);
+    document.getElementById('result').innerText  = a + b;
 }
-document.getElementById('btn1').addEventListener('click', addNumbers)
  
 
 function updateHeading(){
